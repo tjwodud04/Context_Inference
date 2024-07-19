@@ -12,6 +12,7 @@
     <td align="center"><a href="https://github.com/tjwodud04"><img src="https://avatars.githubusercontent.com/u/34568203" width="100px;" alt=""/><br/><sub><b>Jae Young Suh</b></sub></a><br/></td>
     <td align="center"><a href="https://github.com/purang2"><img src="https://avatars.githubusercontent.com/u/46081500" width="100px;" alt=""/><br/><sub><b>Eunchan Lee</b></sub></a><br/></td>
     <td align="center"><a href="https://github.com/swan-cho"><img src="https://avatars.githubusercontent.com/u/62723002" width="100px;" alt=""/><br/><sub><b>Swan Cho</b></sub></a><br/></td>
+    <td align="center"><a href="https://github.com/fbdeme"><img src="https://avatars.githubusercontent.com/u/90471819?v=4" width="100px;" alt=""/><br/><sub><b>Mingyu Jeon</b></sub></a><br/></td>
     </td>
   </tr>
 </table>
