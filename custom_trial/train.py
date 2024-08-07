@@ -39,16 +39,16 @@ def train(model, tokenizer, train_dataset, valid_dataset, data_collator, peft_co
             # do_train=True,
             # do_eval=True,
             eval_strategy="epoch",
-            per_device_train_batch_size=4,
+            per_device_train_batch_size=4, 
             per_device_eval_batch_size=4,
-            gradient_accumulation_steps=1,
-            learning_rate=3e-4,
-            weight_decay=0.1,
-            num_train_epochs=10,
+            gradient_accumulation_steps=1, #-->64
+            learning_rate=3e-4,  #-->1e-5
+            weight_decay=0.1, #-->0.05
+            num_train_epochs=10, #-->3
             max_steps=-1,
             lr_scheduler_type="cosine",
             # warmup_steps=args.warmup_steps,
-            warmup_steps = 2000,
+            warmup_steps = 2000, #-->20
             # warmup_ratio=0.03,
             log_level="info",
             logging_steps=1,
@@ -57,9 +57,9 @@ def train(model, tokenizer, train_dataset, valid_dataset, data_collator, peft_co
             bf16=True,
             gradient_checkpointing=True,
             gradient_checkpointing_kwargs={"use_reentrant": False},
-            max_seq_length=2048,
+            max_seq_length=2048, #-->900
             packing=True,
-            seed=42,
+            seed=42, #-->525 ??
         )
 
     trainer = SFTTrainer(
